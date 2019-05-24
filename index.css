@@ -438,9 +438,9 @@ body{
   --bg-color: rgb(10, 10, 10);
   --text-color: #fff;
   --blog-gray-color: rgb(180, 180, 180);
-  --background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgb(10, 10, 10, 1)), url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w&#x3D;1450");
+  --background-image: linear-gradient(90deg, rgba(10, 10, 10, 0.6), rgb(10, 10, 10, 1)), url("https://i.imgur.com/ou1qEIx.jpg");
   --background-background: linear-gradient(0deg, rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.6)),
-    url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w&#x3D;1450") center center fixed;
+    url("https://i.imgur.com/ou1qEIx.jpg") center center fixed;
   --height: 50vh;
 }
 #display h1 {
@@ -462,6 +462,6 @@ body{
 @media (max-width: 800px) {
   :root {
     --background-image: linear-gradient(0deg, rgba(10, 10, 10, 1), rgba(10, 10, 10, 0)),
-    url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w&#x3D;1450") !important;
+    url("https://i.imgur.com/ou1qEIx.jpg") !important;
   }
 }
