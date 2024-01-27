@@ -475,6 +475,6 @@ body{
 @media (max-width: 800px) {
   :root {
     --background-image: linear-gradient(0deg, rgba(10, 10, 10, 1), rgba(10, 10, 10, 0)),
-    url("https://i.imgur.com/ou1qEIx.jpg") !important;
+    url("https://cdn.discordapp.com/attachments/1141810177755074580/1200897882413342851/2291594acd064b61c99ef1038a78f4ed.jpg?ex=65c7da4e&is=65b5654e&hm=29c0272ccc14da8cdfb45c02873bd48ee1c0c6e80634e215130dc7f21d2cc589&") !important;
   }
 }
