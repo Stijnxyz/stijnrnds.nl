@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,23 +7,21 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
-    <link id="favicon" rel="icon" href="https://cdn.discordapp.com/attachments/1208514204844433418/1208804967381729410/IMG_6743-removebg-preview.png?ex=65e49e5a&is=65d2295a&hm=663ec3e635e6a3bae427b12df38a86b2f4f12c1654e09e3d71401c80c6e58972" type="image/png">
-</head>
+<link rel="icon" href="https://cdn.discordapp.com/attachments/1208514204844433418/1208804967381729410/IMG_6743-removebg-preview.png?ex=65e49e5a&is=65d2295a&hm=663ec3e635e6a3bae427b12df38a86b2f4f12c1654e09e3d71401c80c6e58972&" type="image/png"></head>
 
 <body>
     <div id="loading">
         <div id="spinner"></div>
     </div>
     <div id="profile">
-        <div id="profile_img"></div>
+        <div id="profile_img" style="background: url(https://cdn.discordapp.com/attachments/1208514204844433418/1208804967381729410/IMG_6743-removebg-preview.png?ex=65e49e5a&is=65d2295a&hm=663ec3e635e6a3bae427b12df38a86b2f4f12c1654e09e3d71401c80c6e58972&) center;"></div>
         <div id="username"><span style="display:block;">Stijn Rnds</span><a href="https://github.com/stijnxyz">@stijnxyz</a></div>
         <div id="userbio" style="display: block;">noobie dev frfr</div>
         <div id="about">
-            <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
-            <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://stijnrnds.nl">stijnrnds.nl</a></span>
-            <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; NL</span>
-            <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; </span>
-        </div>
+                <span style="display:none;"><i class="fas fa-envelope"></i> &nbsp; null</span>
+                <span style="display:block;"><i class="fas fa-link"></i> &nbsp; <a href="https://stijnrnds.nl">stijnrnds.nl</a></span>
+                <span style="display:block;"><i class="fas fa-map-marker-alt"></i> &nbsp;&nbsp; NL</span>
+                <span style="display:none;"><i class="fas fa-user-tie"></i> &nbsp;&nbsp; </span></div>
     </div>
     <div id="display">
         <div id="work">
@@ -63,29 +59,6 @@
                         </section>
                         </a>
     </div>
-    <script>
-        function updateProfilePicture() {
-            var userID = '465552000503775234';
-            var avatarUrl = `https://cdn.discordapp.com/avatars/${userID}/avatar_hash.png`;
-            
-            $('#profile_img').css('background-image', `url(${avatarUrl})`);
-        }
-
-        function updateFavicon() {
-            var userID = '465552000503775234';
-            var faviconUrl = `https://cdn.discordapp.com/avatars/${userID}/avatar_hash.png`;
-            
-            $('#favicon').attr('href', faviconUrl);
-        }
-
-        updateProfilePicture();
-        updateFavicon();
-
-        setInterval(function() {
-            updateProfilePicture();
-            updateFavicon();
-        }, 60000); // Update every minute
-    </script>
     <script type="text/javascript">
         setTimeout(function () {
             document.getElementById("loading").classList.add("animated");
